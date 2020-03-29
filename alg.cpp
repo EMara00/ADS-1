@@ -1,5 +1,6 @@
-int cbinsearch(int *arr, int key, int left, int right, int size)
+int cbinsearch(int *arr, int size, int value)
 {
+    int key; int left; int right; 
     int s = 0; 
     int x1 = -1; 
     while (left <= right)
